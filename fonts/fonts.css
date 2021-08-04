@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "droid_serif_italic";
+    src: 
+        url("droid_serif_italic.eot") format("eot"),
+        url("droid_serif_italic.otf") format("otf"),
+        url("droid_serif_italic.svg") format("svg"),
+        url("droid_serif_italic.ttf") format("ttf"),
+        url("droid_serif_italic.woff") format("woff"),
+        url("droid_serif_italic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: 
+        url("montserrat_bold.eot") format("eot"),
+        url("montserrat_bold.otf") format("otf"),
+        url("montserrat_bold.svg") format("svg"),
+        url("montserrat_bold.ttf") format("ttf"),
+        url("montserrat_bold.woff") format("woff"),
+        url("montserrat_bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "montserrat";
+    src: 
+        url("montserrat_regular.eot") format("eot"),
+        url("montserrat_regular.otf") format("otf"),
+        url("montserrat_regular.svg") format("svg"),
+        url("montserrat_regular.ttf") format("ttf"),
+        url("montserrat_regular.woff") format("woff"),
+        url("montserrat_regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "roboto_slab";
+    src: 
+        url("roboto_slab_regular.eot") format("eot"),
+        url("roboto_slab_regular.otf") format("otf"),
+        url("roboto_slab_regular.svg") format("svg"),
+        url("roboto_slab_regular.ttf") format("ttf"),
+        url("roboto_slab_regular.woff") format("woff"),
+        url("roboto_slab_regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "ico";
+    src: 
+        url("ico.eot") format("eot"),
+        url("ico.otf") format("otf"),
+        url("ico.svg") format("svg"),
+        url("ico.ttf") format("ttf"),
+        url("ico.woff") format("woff"),
+        url("ico.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}

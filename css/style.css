@@ -1,0 +1,388 @@
+* {
+    outline: 1px red solid;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 40px;
+    color: #222222;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 18px;
+    color: #222222;
+}
+
+h4 {
+    font-family: "droid_serif_italic";
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+p {
+    font-family: "roboto_slab";
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 0;
+}
+
+.fixed_p {
+    padding: 120px 0;
+}
+
+/* ================================== */
+
+header {
+    background: url(../img/background_header.jpg) 50% 50% / cover no-repeat;
+    overflow: hidden;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: "montserrat";
+    font-weight: normal;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+nav {
+    margin-top: 35px;
+}
+
+h1 {
+    display: none;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 205px;
+    margin-bottom: 160px;
+}
+
+.welcome>h4 {
+    font-family: "droid_serif_italic";
+    font-size: 40px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.welcome>h3 {
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 75px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.send {
+    font-family: "montserrat";
+    font-weight: bold;
+    padding: 25px 50px;
+    background: #fed136;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+/* ================================== */
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.services span {
+    border-radius: 50%;
+    border: 3px #fed136 solid;
+    display: flex;
+    height: 72px;
+    width: 72px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.services > h3 {
+    margin-bottom: 19px;
+}
+
+/* ================================== */
+
+.portfolio {
+    background: #f7f7f7;
+}
+
+.portfolio img {
+    width: 290px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.portfolio .card {
+    display: flex;
+    justify-content: center;
+    width: 290px;
+    height: 93px;
+    text-align: center;
+    border-radius: 0;
+    border: none;
+}
+
+.portfolio .card > h3 {
+    margin-bottom: 5px;
+}
+
+.portfolio .card > h4 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.our {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ================================== */
+
+.about_us {
+    display: flex;
+}
+
+.about_txt {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_txt span {
+    text-transform: uppercase;
+}
+
+.about_txt h3 {
+    margin-bottom: 17px;
+}
+
+.circle {
+    padding: 50px 40px;
+    display: flex;
+    align-items: center;
+    background: url(../img/line.png) 50% 50% / 7px 100% no-repeat;
+}
+
+.circle div {
+    width: 182px;
+    height: 182px;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fed136;
+    border-radius: 50%;
+    border: 7px #f1f1f1 solid;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.circle h3 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    text-shadow: 0 2px 2px #fdb91a;
+}
+
+.about_us:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+.about_us:nth-of-type(even) .about_txt {
+    text-align: left;
+}
+
+.about_us:last-child .circle {
+    padding-bottom: 0;
+}
+
+.about_us:nth-of-type(1) .circle {
+    background: url(../img/line.png) 50% 100% / 7px 50% no-repeat;
+}
+
+/* ================================== */
+
+.team {
+    background: #f9f9f9;
+    /* background: #a3a3a3; */
+}
+
+.team_person div:first-child {
+    background: #111111;
+    width: 235px;
+    height: 235px;
+    border: 7px white solid;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team_person > h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.team_person > p {
+    margin-bottom: 15px;
+}
+
+.team_person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.team_person a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px #222222 solid;
+    margin: 0 5px;
+    font-family: "ico";
+    color: #222;
+    text-decoration: none;
+}
+
+.team_person div:last-child {
+    display: flex;
+}
+
+.team p:last-child {
+    text-align: center;
+    margin: 0 72px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+/* ================================== */
+
+.partner {
+    padding: 60px 0 40px 0;
+}
+
+.partner img {
+    margin: 0 40px 20px 40px;
+}
+
+/* ================================== */
+
+.link {
+    background: url(../img/contact_us.jpg) 50% 50% / cover no-repeat;
+}
+
+.link_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.link_input input {
+    height: 52px;
+}
+
+.link textarea {
+    height: 211px;
+    resize: none;
+    padding: 20px;
+}
+
+.link h4 {
+    margin-bottom: 75px;
+}
+
+.form-control::placeholder {
+    text-transform: uppercase;
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+.link .send {
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: 0 0 0 2px #fed136;
+}
+
+/* ================================== */
+
+footer > .container {
+    padding: 20px 0 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-family: "ico";
+    color: white;
+    text-decoration: none;
+    background: #222;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    font-family: "montserrat";
+    font-weight: normal;
+    color: #555555;
+}

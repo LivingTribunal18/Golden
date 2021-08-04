@@ -1,0 +1,57 @@
+@media(max-width: 992px) {
+    .welcome>h3 {
+        font-size: 50px;
+    }
+
+    .welcome>h4 {
+        font-size: 35px;
+    }
+
+    /* ================================== */
+
+    .about_us:nth-of-type(odd) {
+        flex-direction: row-reverse;        
+    }
+
+    .about_us > .about_txt:last-child {
+        display: none;
+    }
+
+    .about_txt {
+        text-align: left;
+    }
+
+}
+
+/* ================================== */
+
+@media(max-width: 768px) {
+    .welcome>h3 {
+        font-size: 40px;
+    }
+
+    .welcome>h4 {
+        font-size: 25px;
+    }
+
+    .send {
+        padding: 15px 40px;
+    }
+
+    /* ================================== */
+
+    
+
+}
+
+/* ================================== */
+
+@media(max-width: 576px) {
+    .welcome>h3 {
+        font-size: 30px;
+    }
+
+    .welcome>h4 {
+        font-size: 20px;
+    }
+}
