@@ -3,8 +3,11 @@ Landing page from my portfolio
 
 ### Meaning
 Landing Page as a Portfolio Website for design studio
+
 Completed in a few days
+
 Simple Landing Page for quick connection
+
 
 ### Instruments
 - Bootstrap 4.0
