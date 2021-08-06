@@ -2,7 +2,7 @@
 Landing page from my portfolio
 
 ### Meaning
-Landing Page as a Portfolio Website for design studio
+:triangular_ruler: Landing Page as a Portfolio Website for design studio
 
 Completed in a few days
 
